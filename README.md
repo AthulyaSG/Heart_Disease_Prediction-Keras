@@ -13,3 +13,13 @@ Inspired by the human nervous network, the Artificial Neural Network (ANN) model
 
 Figure 1: Feedforward ANN. From Lim et al. (2021).
 
+ANNs are used in the medical field for prediction tasks, as they are good at understanding complicated data. The ability of the networks to identify the hidden patterns in data is fascinating; ANNs improve the performance of forecasting, treatment, and treatment outcomes, helping doctors to make better decisions about diagnosis and treatment plans.
+
+## Data types of variables
+
+### Size of the data
+
+![image](https://github.com/user-attachments/assets/8fbf4aab-56d5-4ae9-9c16-abc4b43ad47a)
+
+![Uploading image.png…]()
+
