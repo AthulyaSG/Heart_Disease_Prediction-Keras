@@ -21,5 +21,60 @@ ANNs are used in the medical field for prediction tasks, as they are good at und
 
 ![image](https://github.com/user-attachments/assets/8fbf4aab-56d5-4ae9-9c16-abc4b43ad47a)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/59868679-9940-447a-8b92-f2c16c575ddc)
+
+Figure 2: A Python code snippet showing the size of the data before and after providing column names.
+
+Figure 2 indicates that the size of the data is 4228 and 4242 before and after providing column names, respectively.
+
+
+
+### No. of columns and rows in the data
+
+![image](https://github.com/user-attachments/assets/13c180c8-659e-4ab3-82ee-6f14ceff24f9)
+
+Figure 3: A Python code snippet showing the number of observations and variables in the data.
+
+As shown in Figure 3, there are 303 rows and 14 columns in the data.
+
+### Renamed column names
+
+![image](https://github.com/user-attachments/assets/6bf15ee3-595a-4409-b227-cb34ea000bd9)
+
+Figure 4: A Python code snippet showing the renamed column names.
+
+The column names have been renamed to provide meaningful labels to get the context of the data used.
+
+### Data type of variables
+
+![image](https://github.com/user-attachments/assets/7f6faa49-03af-4fff-a857-c97a6c371198)
+
+![image](https://github.com/user-attachments/assets/dcc8d44d-9f19-4ec8-9262-e9f48aeb9664)
+
+Figure 5: A Python code snippet showing the data types of columns and changing data types.
+
+The column data types are displayed and changed data type ‘object’ to ‘float’ for column names ‘major vessels’ and ‘thal’.
+
+
+## Data preprocessing
+
+Handling missing values
+
+![image](https://github.com/user-attachments/assets/f543955e-a9ab-4bfc-8369-af039b6ed5f1)
+
+![image](https://github.com/user-attachments/assets/5999dccb-c1cb-4bd6-bd02-639b13e9797c)
+
+![image](https://github.com/user-attachments/assets/363704ca-745d-4c99-b5ad-d5d33f462663)
+
+Figure 6: A Python code snippet displaying null values and how it is handled.
+
+Missing values are identified. Then, the symbols have been replaced by a mode function based on frequency (i.e., more number of occurrences).
+
+### Outliers detection
+
+![image](https://github.com/user-attachments/assets/0ec0df45-8d80-4c77-9654-ac7ea894f229)
+
+Figure 7: The box plots to detect outliers.
+
+Box plots are used to find outliers in the continuous variables. With box plots, minimum, maximum, 25th percentile, 50th percentile, and 75th percentile, and median can be determined. Values beyond maximum and minimum values are identified as outliers.
 
