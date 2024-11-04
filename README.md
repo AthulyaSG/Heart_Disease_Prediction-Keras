@@ -78,3 +78,62 @@ Figure 7: The box plots to detect outliers.
 
 Box plots are used to find outliers in the continuous variables. With box plots, minimum, maximum, 25th percentile, 50th percentile, and 75th percentile, and median can be determined. Values beyond maximum and minimum values are identified as outliers.
 
+### Cap values using IQR
+
+![image](https://github.com/user-attachments/assets/114e0b01-8287-41fd-a0c4-c0d7c65b3206)
+
+Figure 8: The box plots after the removal of outliers.
+
+Values are capped using IQR to limit the extreme values in the dataset in order to remove outliers, where values above the maximum are adjusted with the upper limit and values below the minimum are aligned with the lower limit.
+
+## Exploratory data analysis and conclusion
+
+![image](https://github.com/user-attachments/assets/2f1c2e79-ac94-41ef-bfda-a70ad9eb6f59)
+
+![image](https://github.com/user-attachments/assets/24d3e37f-b598-43ca-9aac-5cd9d6aab356)
+
+Figure 9: A Python code snippet displaying the summary of the dataset.
+
+By describing the dataset, it is easy to understand the distribution of data. Count indicates the number of missing values. Minimum and maximum give the range of the data. Standard deviation and interquartile range denote the spread of the data. Percentiles are shown as 25%, 50%, and 75%.
+
+### Histograms for continuous variables
+
+![image](https://github.com/user-attachments/assets/26073670-d970-4d68-80d9-c436f69553a8)
+
+Figure 10: Histograms for continuous variables.
+
+Histograms for continuous values (age, resting blood pressure, cholesterol, maximum heart rate, and ST depression) are plotted to find the distribution (i.e., frequency), central tendency, and dispersion (spread) of the data. From Figure 10, it is noted that the majority of people belong to the age group of 57-60 years; blood pressure is concentrated from 125 to 135; cholesterol levels range between 240 and 260; maximum heart rates are observed at the range of 155-160; and ST depression is approximately 0-0.3.
+
+### Pie charts for categorical values
+
+![image](https://github.com/user-attachments/assets/39910808-b8c8-4e49-82f2-8a9996af23e7)
+
+Figure 11: Pie charts for categorical values.
+
+Pie charts are used to find the proportion of categorical values, where a slice indicates each category, and the entire data is represented by the whole pie. In Figure 11, 68% corresponds to category 1 for sex; 47.5% represents category 4 for chest pain; 67.3% is indicated in category 0 for exercise-induced angina; 46.9% is allocated to category 1 for slope; and 54.1% is attributed to category 0 for heart disease.
+
+
+### Convert target multiclass to binary classification
+
+![image](https://github.com/user-attachments/assets/08a688ea-7424-43d2-9eda-074d163fef92)
+
+Figure 12: Pie chart for target class after conversion of multiclass to binary classification.
+
+The target variable has multiple categories (0, 1, 2, 3, and 4); to fit into the model, the multiclass target value is converted to binary classification in heart disease.
+
+### Grouped bar charts
+
+![image](https://github.com/user-attachments/assets/91c9a127-a4f5-4e59-885b-9f26b4862791)
+
+Figure 13: Grouped bar charts for categorical variables against heart disease.
+
+Grouped bar charts are used to compare categorical values, where each group is represented by category. In chest pain, category 4 has individuals with the highest number of heart disease (>100) and category 3 has the highest number of people who are without heart disease. In gender class, male (>100) has the highest number of heart diseases. In the exercise-induced angina section, there seems to be no correlation between heart disease and exercise-induced angina as the highest number of people (around 140) are without heart illness. In slope, the number of people with heart disease (>100) in slope 2 is high.
+
+### Heatmap
+
+![image](https://github.com/user-attachments/assets/ece01906-de41-4fc0-9b76-30f74fa3e1ab)
+
+Figure 14: Heatmaps.
+
+Heatmaps are used to identify patterns and trends by colors and visualize relationships by positive and negative correlation and to determine the correlation between variables. A value near -1 indicates a strong negative correlation, 0 means a weak correlation, and near 1 is a strong positive correlation. There seems to be no positive or negative strong correlation between variables in the heatmap.
+
