@@ -137,3 +137,11 @@ Figure 14: Heatmaps.
 
 Heatmaps are used to identify patterns and trends by colors and visualize relationships by positive and negative correlation and to determine the correlation between variables. A value near -1 indicates a strong negative correlation, 0 means a weak correlation, and near 1 is a strong positive correlation. There seems to be no positive or negative strong correlation between variables in the heatmap.
 
+### Pair plots
+
+![image](https://github.com/user-attachments/assets/ec31e547-da70-4b9f-ac70-87a76d6cdce2)
+
+Figure 15: Pair plot
+
+Scatter plots illustrate the relationship between variables by identifying patterns, trends, or correlations, utilizing continuous variables. When examining variables namely age, resting blood pressure, cholesterol, maximum heart rate, and ST depression against heart disease, there are no obvious trends, indicating any direct correlations. As the outliers are already handled using cap, there are no obvious outlie
+
