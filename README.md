@@ -4,4 +4,10 @@ Heart disease is one of the leading causes of death worldwide. The timely identi
 Cardiovascular diseases accounted for 17.9 million deaths worldwide in the year 2016, in which heart disease is the main condition. In order to prevent and predict heart defects, contributing factors should be understood. Angiography is expensive and tedious, so automated systems are being developed. The dataset used is obtained from the UCI repository with 303 rows and 14 variables, and the details on variables are given in Table 1.
 
 ![image](https://github.com/user-attachments/assets/3204dbf1-ba6a-49c5-aa80-9ab3465c9fa0)
+Table 1: Variables table. From the website https://archive.ics.uci.edu/dataset/45/heart+disease.
+
+Inspired by the human nervous network, the Artificial Neural Network (ANN) model replicates the learning process of the brain inside the system. Information is processed by the ANN through a network of interconnected neurons connected by communication links. There are three layers: an input layer receives information, hidden layers perform calculations, and output layer contains the result (Figure 1) (Lim et al., 2021). Activation functions introduce non-linearity into the neural network to learn complex patterns. Optimizers find how the weights are updated during training to minimize the error. Epoch is one pass through the training dataset.
+
+![image](https://github.com/user-attachments/assets/8981db39-069f-412e-9c6a-025c40049d95)
+Figure 1: Feedforward ANN. From Lim et al. (2021).
 
